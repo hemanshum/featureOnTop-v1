@@ -1,0 +1,49 @@
+.post {
+    max-width: 60rem;
+    width: 60%;
+    margin: 2rem auto;
+    color: #999595;
+    animation: post-appear 1s ease-out forwards;
+  }
+  
+  .para{
+    margin-top: -0.1rem;
+    display: flex;
+    
+    margin-left: 1.1rem;
+    display: inline-block;
+    word-wrap: break-word;
+    margin-bottom: 0.8rem;
+    width: 91%;
+  }
+  
+  .post span{
+    float: right;
+    margin-right: 0.8rem;
+    font-weight: normal;
+    color: #e67145;
+  }
+  
+  .buttons button {
+    margin: 0 1.1rem;
+    background:transparent;
+    border: none;
+    cursor: pointer;  
+  }
+  
+  b {
+    color: #c9c5c5;
+    font-size: small;
+  }
+  
+  @keyframes post-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
